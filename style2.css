@@ -1,0 +1,254 @@
+body {
+    background-image: url("img/back.png");
+    background-color: wheat;
+    
+   }
+
+li{
+    cursor: pointer;
+    display: block;
+    margin-left: 10;
+
+}
+
+b{
+    margin-right: 200;
+}
+
+
+
+
+
+
+@font-face {
+    font-family: 'optilencyregular';
+    src: url('fonts/optilency.woff2') format('woff2'),
+         url('fonts/optilency.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+.icall{
+    font-family: 'optilencyregular';
+    color: blanchedalmond;
+    font-size: 3200px;
+    color: rgb(141, 197, 223);
+  text-align: center;
+  -webkit-text-stroke-width: 4px;
+  font-size: 120px;
+    -webkit-text-stroke-color: black;
+    margin-right: 600;
+
+}
+
+
+.backbutton{
+    text-align: left;
+}
+
+
+.gdp{
+    position: absolute;
+    text-align: center;
+    top: 79px;
+    left: 10%;
+    font-family: 'sf_ui_displaylight';
+    font-size: 63px;
+    background-color: rgba(0, 0, 0, 0);
+    color: rgb(255, 255, 255);
+	-webkit-text-stroke: 1px rgb(0, 0, 0);
+	-webkit-text-fill-color: rgb(255, 255, 255);
+
+}
+
+
+.footerbottom{
+
+    -webkit-animation: bgcolor 20s infinite;
+    animation: bgcolor 9s infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;    padding: 10px;
+    text-align: center;
+    opacity: .4;
+}
+
+.footerbottom p{
+    color: #ffffff;
+    padding: 1%;
+    text-align: center;
+    font-size: 17px;
+    font-family: 'sf_ui_displaylight';
+    font-weight: bolder;
+
+}
+
+
+ 
+@font-face {
+    font-family: 'sf_ui_displaylight';
+    src: url('fonts/sfuidisplay-light.woff2') format('woff2'),
+         url('fonts/sfuidisplay-light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+body{ 
+    min-height: 100vh; 
+    margin: 0; 
+    
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+  }
+
+  
+  @keyframes bgcolor {
+    0% {
+        background-color: #8a68e7
+    }
+
+    30% {
+        background-color: #b07edf
+    }
+
+    60% {
+        background-color: #5f7425
+    }
+
+    90% {
+        background-color: rgb(87, 121, 25)
+    }
+
+    100% {
+        background-color: #000000
+    }
+}
+
+
+
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1300px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgb(0, 0, 0);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #000000;
+  font-size: 25px;
+  padding: 8px 12px;
+  position: absolute;
+  background-color: #f2f2f2;
+  top: 0;
+  font-family: 'sf_ui_displaylight';
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 55px;
+  width: 55px;
+  margin: 0 2px;
+  background-color: #942dc4;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #647519;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.2s;
+}
+
+@keyframes fade {
+  from {opacity: .3}
+  to {opacity: 1}
+}
+
+
+
+.headertextt{
+    font-size: 15px;
+    font-family: 'sf_ui_displaylight';
+    text-align: center;
+    background-color: rgb(252, 252, 252);
+    margin: 20%;
+    line-height: 410%;
+
+}
+
+.headertext{
+    font-size: 25px;
+    font-family: 'sf_ui_displaylight';
+    text-align: center;
+    background-color: rgb(252, 252, 252);
+    margin: 10%;
+    
+
+}
+
+
+
+@font-face {
+    font-family: 'optilencyregular';
+    src: url('fonts/optilency.woff2') format('woff2'),
+         url('fonts/optilency.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
